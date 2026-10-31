@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <attr name="containerBackground" format="reference" />
+    <attr name="containerBackgroundDark" format="reference" />
+    <attr name="containerFG" format="reference" />
+    <attr name="containerFGw" format="reference" />
+    <attr name="containerHighLight" format="reference" />
+    <attr name="highlight_color_1" format="reference" />
+    <attr name="highlight_color_2" format="reference" />
+    <attr name="inVerticalOrientation" format="boolean" />
+    <attr name="listItemBackground" format="reference" />
+    <attr name="listItemBackgroundSelected" format="reference" />
+    <attr name="mediaControlsBackground" format="reference" />
+    <attr name="mediaControlsFG" format="reference" />
+    <attr name="mediaControlsFGw" format="reference" />
+    <attr name="mediaControlsHighLight" format="reference" />
+    <attr name="mediaControlsPopupBackground" format="reference" />
+    <attr name="numberPickerStyle" format="reference" />
+    <attr name="rfs_backgroundColor" format="reference|color" />
+    <attr name="rfs_barBackground" format="reference" />
+    <attr name="rfs_barColor" format="reference|color" />
+    <attr name="rfs_fast_scroller_layout" format="reference" />
+    <attr name="rfs_handleBackground" format="reference" />
+    <attr name="rfs_handleColor" format="reference|color" />
+    <attr name="rfs_section_indicator_layout" format="reference" />
+    <attr name="rfs_textColor" format="reference|color" />
+    <attr name="songProgressBar" format="reference" />
+    </resources>

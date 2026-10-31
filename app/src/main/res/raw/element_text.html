@@ -1,0 +1,119 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<style>
+.container {
+    width:100%;
+}
+.container div {
+    width:100%;
+}
+.container .header {
+    padding: 2px;
+    cursor: pointer;
+}
+.container .content {
+    display: none;
+}
+</style>
+</head>
+<body>
+<div class="col">
+    <h2>文本</h2>
+    <p><pre>显示静态文本和各种变量
+
+可用于显示曲目艺术家、标题、时间和其他值</pre></p>
+    <h4>属性</h4>
+    <hr>
+    <dl>
+        <dt id="text">文本</dt>
+        <dd>
+            <p>要显示的文本<br><br>用 "{}" 括起来的文本将被识别为变量，并将被替换为其对应的值<br>变量名称列表：<br><br>
+            {TimeCurrent}<br>
+            {TimeRemaining}<br>
+            {TimeLength}<br>
+            {Artist}<br>
+            {ArtistOrTitle}<br>
+            {Title}<br>
+            {Album}<br>
+            {FrameTime}<br>
+            {ArtistAndTitle}<br>
+            {FPS}<br>
+            {Progress:位数,n乘数}<br>
+            {Increase:[字符集]\时间间隔}<br>
+            {?字符集(数量)\时间间隔}</p>
+
+            <h5>Progress</h5>
+            <p>需有其中一个参数</p>
+            <p>可选位数:</p>
+            <p>
+            x<br>
+            xx<br>
+            xxx<br>
+            xxxx<br>
+            xxxxx</p>
+            <p>可选n乘数</p>
+            <p>
+            n1<br>
+            n10<br>
+            n100<br>
+            n1000<br>
+            n10000</p>
+
+            <h5>Increase</h5>
+            <p>[字符集]必选</p>
+            <p>写法</p>
+            <p>[&lt;···&gt;]</p>
+
+            <h5>?</h5>
+            <p>字符集必选</p>
+            <p>预设字符集写法</p>
+            <p>
+            ?az   --- a-z<br>
+            ?AZ   --- A-Z<br>
+            ?aZ   --- a-z A-Z<br>
+            ?09   --- 0-9<br>
+            ?a9   --- a-z A-Z 0-9<br>
+            ?#   --- 全ASCII符号集<br>
+            ?*   --- 除控制字符外的全ASCII字符集</p>
+            <p>自定义字符集写法</p>
+            <p>[x,x,x]</p>
+            <p>(数量)写法</p>
+            <p>(n)</p>
+            <p>\时间间隔写法</p>
+            <p>\n   --- ms</p>
+
+            <h5>&lt;···&gt;范围字符集写法</h5>
+            <p>(只可用于?与Increase中的字符集 即只能存在于[]中)</p>
+            <p>&lt;字符集范围,步长,DOWN&gt;</p>
+            <p>
+            1.&lt;x-x&gt;<br>
+            示例: &lt;0-9&gt;<br>
+            输出: 0123456789</p>
+            <p>
+            2.&lt;x-x,n&gt;<br>
+            示例: &lt;a-z,2&gt;<br>
+            输出: acegikmoqsuwy</p>
+            <p>
+            3.&lt;x-x,DOWN&gt; 用于倒序</p>
+            <p>
+            4.&lt;x-x,n,DOWN&gt; 用于倒序<br>
+            示例: &lt;12-0,3,DOWN&gt;<br>
+            输出: 1297531</p>
+        </dd>
+        <dt id="color">颜色</dt>
+        <dd>
+            <p>文本颜色</p>
+        </dd>
+        <dt id="fontSize">字号</dt>
+        <dd>
+            <p>文本字号</p>
+        </dd>
+        <dt id="typeFace">字体</dt>
+        <dd>
+            <p>指定使用的字体</p>
+        </dd>
+    </dl>
+</div>
+</body>
+</html>

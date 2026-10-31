@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <item type="dimen" name="abc_dialog_fixed_height_major">79.99999%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">100.0%</item>
+    <dimen name="abc_dialog_fixed_width_major">320.0dip</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">320.0dip</dimen>
+    <item type="dimen" name="abc_dialog_min_width_major">65.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">95.00001%</item>
+    <item type="dimen" name="abc_disabled_alpha_material_dark">0.3</item>
+    <item type="dimen" name="abc_disabled_alpha_material_light">0.26</item>
+    <dimen name="actionbar_height">56.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="default_margin_top">20.0dip</dimen>
+    <dimen name="default_padding_side">24.0dip</dimen>
+    <dimen name="default_preview_height">40.0dip</dimen>
+    <dimen name="default_preview_image_height">36.0dip</dimen>
+    <dimen name="default_slider_bar_height">4.0dip</dimen>
+    <dimen name="default_slider_handler_radius">10.0dip</dimen>
+    <dimen name="default_slider_height">36.0dip</dimen>
+    <dimen name="default_slider_margin">24.0dip</dimen>
+    <dimen name="design_height_0">56.0dip</dimen>
+    <dimen name="design_height_0_half">26.0dip</dimen>
+    <dimen name="design_height_divider">4.0dip</dimen>
+    <dimen name="design_height_minus_div">52.0dip</dimen>
+    <dimen name="design_height_q">40.0dip</dimen>
+    <item type="dimen" name="design_snackbar_action_text_color_alpha">1.0</item>
+    <item type="dimen" name="disabled_alpha_material_dark">0.3</item>
+    <item type="dimen" name="disabled_alpha_material_light">0.26</item>
+    <item type="dimen" name="highlight_alpha_material_colored">0.26</item>
+    <item type="dimen" name="highlight_alpha_material_dark">0.2</item>
+    <item type="dimen" name="highlight_alpha_material_light">0.12</item>
+    <item type="dimen" name="hint_alpha_material_dark">0.5</item>
+    <item type="dimen" name="hint_alpha_material_light">0.38</item>
+    <item type="dimen" name="hint_pressed_alpha_material_dark">0.7</item>
+    <item type="dimen" name="hint_pressed_alpha_material_light">0.54</item>
+    <dimen name="list_item_height">72.0dip</dimen>
+    <dimen name="margin_huge">64.0dip</dimen>
+    <dimen name="margin_large">32.0dip</dimen>
+    <dimen name="margin_medium">16.0dip</dimen>
+    <dimen name="margin_small">8.0dip</dimen>
+    <dimen name="margin_tiny">4.0dip</dimen>
+    <item type="dimen" name="material_emphasis_disabled">0.38</item>
+    <item type="dimen" name="material_emphasis_high_type">0.87</item>
+    <item type="dimen" name="material_emphasis_medium">0.6</item>
+    <item type="dimen" name="mtrl_btn_letter_spacing">0.07</item>
+    <item type="dimen" name="mtrl_high_ripple_default_alpha">0.0</item>
+    <item type="dimen" name="mtrl_high_ripple_focused_alpha">0.24</item>
+    <item type="dimen" name="mtrl_high_ripple_hovered_alpha">0.08</item>
+    <item type="dimen" name="mtrl_high_ripple_pressed_alpha">0.24</item>
+    <item type="dimen" name="mtrl_low_ripple_default_alpha">0.0</item>
+    <item type="dimen" name="mtrl_low_ripple_focused_alpha">0.12</item>
+    <item type="dimen" name="mtrl_low_ripple_hovered_alpha">0.04</item>
+    <item type="dimen" name="mtrl_low_ripple_pressed_alpha">0.12</item>
+    <item type="dimen" name="mtrl_snackbar_action_text_color_alpha">0.5</item>
+    <item type="dimen" name="mtrl_snackbar_background_overlay_color_alpha">0.8</item>
+    <dimen name="out_of_bound_swipe_dist">100.0dip</dimen>
+    <dimen name="path_button_max_width">160.0dip</dimen>
+    <dimen name="player_controls_height">112.0dip</dimen>
+    <dimen name="player_controls_height_frag0">56.0dip</dimen>
+    <dimen name="player_controls_height_frag1">112.0dip</dimen>
+    <dimen name="player_controls_height_max">112.0dip</dimen>
+    <dimen name="player_controls_height_plus10">122.0dip</dimen>
+    <dimen name="player_controls_volume_popup_offset">16.0dip</dimen>
+    <dimen name="player_controls_volume_popup_offset_x">36.0dip</dimen>
+    <dimen name="status_bar_height">1.0dip</dimen>
+    <dimen name="textSizeM0">18.0sp</dimen>
+    <dimen name="textSizeM1">16.0sp</dimen>
+    <dimen name="textSizeM2">14.0sp</dimen>
+    <dimen name="textSizeM3">12.0sp</dimen>
+    <dimen name="textSizeM4">10.0sp</dimen>
+    <dimen name="textSizeM_0">24.0sp</dimen>
+    <dimen name="toolbarTxtSize">8.0sp</dimen>
+    </resources>

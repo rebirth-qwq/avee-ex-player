@@ -1,0 +1,160 @@
+<html><head><link rel="stylesheet" href="style.css"><style></style></head><body>
+<div class="col">
+<h2>音频源</h2>
+
+<!---->
+    <p>
+<pre>为其他元素处理和提供音频数据
+
+频谱条/方柱条等元素的值取决于此元素的输出。所有“节拍”变量也由此元素提供</pre>
+</p>
+<h4>属性</h4>
+<hr>
+<!---->
+<dl>
+<dt id="sampleProvider">采样源</dt>
+<dd>
+<p>指定音频源的类型</p>
+<!--2-->
+<div class="pborder">
+<h6>频谱</h6>
+<dl>
+<dt id="sampleOutCount">采样输出数量</dt>
+<dd>
+<p>频谱值输出数量</p>
+</dd>
+<dt id="mirrorSamples">镜像采样</dt>
+<dd>
+<p>如果设置，后半部分值将被镜像</p>
+</dd>
+<dt id="repeatSamples">重复采样</dt>
+<dd>
+<p>指定值在 <value>采样输出数量</value> 中重复的次数</p>
+</dd>
+<dt id="starAndEndGap">起始和结束间隙</dt>
+<dd>
+<p>在输出开头和结尾插入零值</p>
+</dd>
+<dt id="smooth">平滑</dt>
+<dd>
+<p>控制音频反应平滑度</p>
+</dd>
+<dt id="preSmooth">预平滑</dt>
+<dd>
+<p>控制音频反应平滑度，实验性属性，与 <value>平滑</value> 非常相似</p>
+</dd>
+<dt id="filterRadius">滤镜半径</dt>
+<dd>
+<p>滤镜的扩散范围，使单个值更突出</p>
+</dd>
+<dt id="filterStrength">滤镜强度</dt>
+<dd>
+<p>滤镜的强度，使单个值更突出</p>
+</dd>
+<dt id="aWeight">A 权重</dt>
+<dd>
+<p>增加此值会减弱低频（即减弱低音）</p>
+</dd>
+<dt id="outputMultiplier">输出倍率</dt>
+<dd>
+<p>增强输出值</p>
+</dd>
+
+<hr>
+
+<dt id="lowerHz">低频</dt>
+<dd>
+<p>第一个频谱值的频率</p>
+</dd>
+<dt id="higherHz">高频</dt>
+<dd>
+<p>最后一个频谱值的频率</p>
+</dd>
+<dt id="hzLinearFactor">频率线性因子</dt>
+<dd>
+<p>控制低频值的分布。降低此值将使低音在频谱上更突出</p>
+</dd>
+<dt id="freqShift">频率偏移</dt>
+<dd>
+<p>向前/向后移动输出值</p>
+</dd>
+
+<hr>
+
+<dt id="beatSmooth">节拍平滑</dt>
+<dd>
+<p>控制“节拍”变量的反应平滑度<br><br>节拍范围可以想象成音频频谱条上的一个“框”，由左、右、底、顶边定义，框内条越多，节拍值越高</p>
+</dd>
+<dt id="beatRangeBarFirst">节拍范围条起始</dt>
+<dd>
+<p>节拍检测的第一个频谱条索引（“框”的左侧）。设置较低值使节拍对低音更敏感，较高值对高音更敏感</p>
+</dd>
+<dt id="beatRangeBarLast">节拍范围条结束</dt>
+<dd>
+<p>节拍检测的最后一个频谱条索引（“框”的右侧）。设置较低值使节拍对低音更敏感，较高值对高音更敏感</p>
+</dd>
+<dt id="beatRangeValueLower">节拍范围值下限</dt>
+<dd>
+<p>节拍检测的最低频谱条值（“框”的底部）</p>
+</dd>
+<dt id="beatRangeValueHigher">节拍范围值上限</dt>
+<dd>
+<p>节拍检测的最高频谱条值（“框”的顶部）</p>
+</dd>
+
+<hr>
+
+<dt id="fftSize">FFT 大小</dt>
+<dd>
+<p>用于频谱处理的输入音频采样数，定义为 2 的幂次（例如 2^10 = 1024）</p>
+</dd>
+</dl>
+</div>
+<!--2-->
+<hr>
+<!--2-->
+<div class="pborder">
+<h6>波形</h6>
+<dl>
+<dt id="sampleOutCountPower">采样输出数量幂</dt>
+<dd>
+<p>音频值输出数量，定义为 2 的幂次（例如 2^8 = 256）</p>
+</dd>
+
+<hr>
+
+<dt id="inputSize">输入大小</dt>
+<dd>
+<p>输入音频采样数，定义为 2 的幂次（例如 2^8 = 256）</p>
+</dd>
+</dl>
+</div>
+<!--2-->
+</dd>
+</dl>
+
+</div>
+
+
+
+<style media="screen" type="text/css">
+
+.container {
+width:100%;
+}
+.container div {
+width:100%;
+}
+.container .header {
+padding: 2px;
+cursor: pointer;
+}
+.container .content {
+display: none;
+}
+
+</style>
+
+
+</body>
+</html>

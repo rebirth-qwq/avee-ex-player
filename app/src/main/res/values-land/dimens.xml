@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <dimen name="player_controls_height">56.0dip</dimen>
+    <dimen name="player_controls_height_frag1">56.0dip</dimen>
+    <dimen name="player_controls_height_plus10">66.0dip</dimen>
+</resources>

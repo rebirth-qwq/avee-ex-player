@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <item type="drawable" name="design_ic_visibility">false</item>
+    <item type="drawable" name="design_ic_visibility_off">false</item>
+    <item type="drawable" name="exo_controls_shuffle">false</item>
+    <item type="drawable" name="exo_edit_mode_logo">false</item>
+    <item type="drawable" name="exo_icon_fastforward">false</item>
+    <item type="drawable" name="exo_icon_next">false</item>
+    <item type="drawable" name="exo_icon_pause">false</item>
+    <item type="drawable" name="exo_icon_play">false</item>
+    <item type="drawable" name="exo_icon_previous">false</item>
+    <item type="drawable" name="exo_icon_rewind">false</item>
+    <item type="drawable" name="exo_icon_stop">false</item>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <style name="MySeekBarStyleLight" parent="@style/Widget.AppCompat.SeekBar">
+        <item name="android:thumb">@drawable/my_seekbar_thumb</item>
+        <item name="android:progressTint">@color/white_alpha_3</item>
+    </style>
+    </resources>

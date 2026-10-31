@@ -1,0 +1,94 @@
+<html><head><link rel="stylesheet" href="style.css"><style></style></head><body>
+<div class="col">
+<h2>频谱条</h2>
+
+<!---->
+    <p>
+<pre>显示对音频反应的系列段/线条/条
+
+代表音频源输出的值。段的数量也由音频源控制</pre>
+    </p>
+<h4>属性</h4>
+<hr>
+<!---->
+<dl>
+<dt>通用元素属性</dt>
+<dd>
+<p>请参阅 <a href="local://customization_general">常规属性</a></p>
+</dd>
+
+<hr>
+
+<dt id="flipInput">翻转输入</dt>
+<dd>
+<p>翻转起始和结束之间的值</p>
+</dd>
+<dt id="heightScale">高度缩放</dt>
+<dd>
+<p>调整高度值。最终高度通常由 <value>高度缩放</value> + <value>条高度倍率</value>（位于 <value>段落 1/2</value> 中）定义</p>
+</dd>
+<dt id="minHeightScale">最小高度缩放</dt>
+<dd>
+<p>允许的最小高度值</p>
+</dd>
+<dt id="ShapePath">形状</dt>
+<dd>
+<p>定义条/线条的形状<br><br><value>水平线</value> - 直线<br><value>圆形</value> - 圆形或弧形<br><value>多边形</value> - 三角形、矩形、五边形等<br><value>字母</value> - 字母（A-Z）和数字。显示的字符是当前打开的歌曲的艺术家或歌曲名称的第一个字母</p>
+</dd>
+<dt id="colorBlendOffset">颜色混合偏移</dt>
+<dd>
+<p>偏移混合颜色（<value>颜色起始</value>、<value>过渡到</value>）的中心点</p>
+</dd>
+<dt id="Segment1">段落 1</dt>
+<dd>
+<p>设置第一个段渲染器（例如方柱条或线条）。方柱条/线条将沿着指定的 <value>形状</value> 排列<br><br>请参阅 <a href="local://customization_segment_renderers">段渲染器</a></p>
+</dd>
+<dt id="Segment2">段落 2</dt>
+<dd>
+<p>设置第二个段渲染器。通常用于更有效地创建不同外观的条。添加另一个“方柱条”元素也可以达到同样效果<br><br>请参阅 <a href="local://customization_segment_renderers">段渲染器</a></p>
+</dd>
+
+<hr>
+
+<dt id="softness">平滑度</dt>
+<dd>
+<p>柔化/平滑高度值</p>
+</dd>
+<dt id="reactionDelay">反应延迟</dt>
+<dd>
+<p>通过取较旧帧的值来延迟对音频的反应</p>
+</dd>
+<dt id="reactionAccumulatedDelay">累积反应延迟</dt>
+<dd>
+<p>通过取较旧帧的平均值来延迟对音频的反应</p>
+</dd>
+<dt id="audioProviderIndex">音频源索引</dt>
+<dd>
+<p>如果有多个“音频源”元素，指定用作输入的音频源</p>
+</dd>
+</dl>
+<!---->
+</div>
+
+
+<style media="screen" type="text/css">
+
+.container {
+width:100%;
+}
+.container div {
+width:100%;
+}
+.container .header {
+padding: 2px;
+cursor: pointer;
+}
+.container .content {
+display: none;
+}
+
+</style>
+
+
+</body>
+</html>

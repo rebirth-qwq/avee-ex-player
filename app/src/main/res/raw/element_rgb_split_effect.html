@@ -1,0 +1,90 @@
+<html><head><link rel="stylesheet" href="style.css"><style></style></head><body>
+<div class="col">
+<h2>色彩分离效果</h2>
+
+<!---->
+    <p>
+<pre>偏移目标合成/图像的 RGB 通道
+
+有助于创建色差效果。可以分离为红、绿、蓝以外的任何其他颜色</pre>
+    </p>
+<h4>属性</h4>
+<hr>
+<!---->
+<dl>
+<dt>通用元素属性</dt>
+<dd>
+<p>请参阅 <a href="local://customization_general">常规属性</a></p>
+</dd>
+
+<hr>
+
+<dt id="blendModeContent">混合模式内容</dt>
+<dd>
+<p>显示原始内容（模糊前）的混合模式。当设置了 <value>显示未模糊内容</value> 或 <value>在下方显示未模糊内容</value> 时使用</p>
+</dd>
+<dt id="TargetImage">目标图像</dt>
+<dd>
+<p>指定用作输入的图像或合成</p>
+</dd>
+<dt id="color">颜色</dt>
+<dd>
+<p>效果的色调</p>
+</dd>
+<dt id="showUnblurredContent">显示未模糊内容</dt>
+<dd>
+<p>在模糊上方显示原始内容（模糊前）</p>
+</dd>
+<dt id="showUnblurredContentUnder">在下方显示未模糊内容</dt>
+<dd>
+<p>在模糊下方显示原始内容（模糊前）</p>
+</dd>
+
+<hr>
+
+<dt id="splitMultiplier">分离强度</dt>
+<dd>
+<p>增强 <value>分离量</value> 属性</p>
+</dd>
+<dt id="splitAmount">分离量</dt>
+<dd>
+<p>颜色偏移分离效果的量</p>
+</dd>
+<dt id="splitColor0">分离颜色 0</dt>
+<dd>
+<p>要偏移的第一个颜色分量</p>
+</dd>
+<dt id="splitColor1">分离颜色 1</dt>
+<dd>
+<p>第二个颜色分量<br><br>注意，第一个和第三个分量实际被偏移，第二个保持不变。如果您只想分离两种颜色（如红色和青色），请将此颜色分量设为黑色</p>
+</dd>
+<dt id="splitColor2">分离颜色 2</dt>
+<dd>
+<p>要偏移的第三个颜色分量</p>
+</dd>
+</dl>
+<!---->
+</div>
+
+
+<style media="screen" type="text/css">
+
+.container {
+width:100%;
+}
+.container div {
+width:100%;
+}
+.container .header {
+padding: 2px;
+cursor: pointer;
+}
+.container .content {
+display: none;
+}
+
+</style>
+
+
+</body>
+</html>

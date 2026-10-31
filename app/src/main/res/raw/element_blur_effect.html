@@ -1,0 +1,93 @@
+<html><head><link rel="stylesheet" href="style.css"><style></style></head><body>
+<div class="col">
+<h2>模糊效果</h2>
+
+<!---->
+    <p>
+<pre>显示输入合成/图像的模糊版本
+
+通常“显示未模糊内容”设置为在模糊内容上方叠加原始未模糊输入内容</pre>
+    </p>
+<h4>属性</h4>
+<hr>
+<!---->
+<dl>
+<dt>通用元素属性</dt>
+<dd>
+<p>请参阅 <a href="local://customization_general">常规属性</a></p>
+</dd>
+
+<hr>
+
+<dt id="blendModeContent">混合模式内容</dt>
+<dd>
+<p>显示原始内容（模糊前）的混合模式。当设置了 <value>显示未模糊内容</value> 或 <value>在下方显示未模糊内容</value> 时使用</p>
+</dd>
+<dt id="color">颜色</dt>
+<dd>
+<p>模糊的色调</p>
+</dd>
+<dt id="sourceCompositionIndex">源合成索引</dt>
+<dd>
+<p>用作输入的合成索引</p>
+</dd>
+<dt id="MaskImage">遮罩图像</dt>
+<dd>
+<p>用于遮罩区域的图像</p>
+</dd>
+<dt id="showUnblurredContent">显示未模糊内容</dt>
+<dd>
+<p>在模糊上方显示原始内容（模糊前）</p>
+</dd>
+<dt id="showUnblurredContentUnder">在下方显示未模糊内容</dt>
+<dd>
+<p>在模糊下方显示原始内容（模糊前）</p>
+</dd>
+
+<hr>
+
+<dt id="blurRadius">模糊半径</dt>
+<dd>
+<p>模糊量</p>
+</dd>
+<dt id="blurMultiplier">模糊强度</dt>
+<dd>
+<p>增强 <value>模糊半径</value> 属性</p>
+</dd>
+<dt id="1layerScale">层 1 缩放</dt>
+<dd>
+<p>调整模糊内容的缩放</p>
+</dd>
+<dt id="2layerScale">层 2 缩放</dt>
+<dd>
+<p>如果设大于 <value>0</value>，显示第二层模糊内容。调整模糊内容的缩放</p>
+</dd>
+<dt id="3layerScale">层 3 缩放</dt>
+<dd>
+<p>如果设大于 <value>0</value>，显示第三层模糊内容。调整模糊内容的缩放</p>
+</dd>
+</dl>
+<!---->
+</div>
+
+<style media="screen" type="text/css">
+
+.container {
+width:100%;
+}
+.container div {
+width:100%;
+}
+.container .header {
+padding: 2px;
+cursor: pointer;
+}
+.container .content {
+display: none;
+}
+
+</style>
+
+
+</body>
+</html>

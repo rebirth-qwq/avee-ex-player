@@ -1,0 +1,101 @@
+<html><head><link rel="stylesheet" href="style.css"><style></style></head><body>
+<div class="col">
+<h2>运动模糊效果</h2>
+
+<!---->
+    <p>
+<pre>根据运动模糊目标合成/图像内容
+
+根据此元素的位置变化和缩放变化来模糊输入。通过设置“运动源”也可以使用不同的运动输入</pre>
+    </p>
+<h4>属性</h4>
+<hr>
+<!---->
+<dl>
+<dt>通用元素属性</dt>
+<dd>
+<p>请参阅 <a href="local://customization_general">常规属性</a></p>
+</dd>
+
+<hr>
+
+<dt id="blendModeContent">混合模式内容</dt>
+<dd>
+<p>显示原始内容（模糊前）的混合模式。当设置了 <value>显示未模糊内容</value> 或 <value>在下方显示未模糊内容</value> 时使用</p>
+</dd>
+<dt id="color">颜色</dt>
+<dd>
+<p>模糊的色调</p>
+</dd>
+<dt id="TargetImage">目标图像</dt>
+<dd>
+<p>指定用作输入的图像或合成</p>
+</dd>
+<dt id="showUnblurredContent">显示未模糊内容</dt>
+<dd>
+<p>在模糊上方显示原始内容（模糊前）</p>
+</dd>
+<dt id="showUnblurredContentUnder">在下方显示未模糊内容</dt>
+<dd>
+<p>在模糊下方显示原始内容（模糊前）</p>
+</dd>
+
+<hr>
+
+<dt id="blurAmountMultiplier">模糊量强度</dt>
+<dd>
+<p>模糊量</p>
+</dd>
+<dt id="motionSource">运动源</dt>
+<dd>
+<p>指定将什么解释为运动<br><br><value>效果变换</value> - 使用此元素的 <value>位置</value> 和 <value>缩放</value><br><value>手动</value> - 使用变量</p>
+<!--2-->
+<div class="pborder">
+<h6>手动</h6>
+<dl>
+<dt id="posBlurAmount">位置模糊量</dt>
+<dd>
+<p>控制位置运动</p>
+</dd>
+<dt id="scaleBlurAmount">缩放模糊量</dt>
+<dd>
+<p>控制缩放/拉近拉远运动</p>
+</dd>
+</dl>
+</div>
+<!--2-->
+</dd>
+
+
+
+</dd>
+<dt id="relativeMotionMode">相对运动模式</dt>
+<dd>
+<p>当 <value>运动源</value> 设置为 <value>手动</value> 时禁用此选项很有用，因为变量通常输出绝对值</p>
+</dd>
+</dl>
+<!---->
+</div>
+
+
+<style media="screen" type="text/css">
+
+.container {
+width:100%;
+}
+.container div {
+width:100%;
+}
+.container .header {
+padding: 2px;
+cursor: pointer;
+}
+.container .content {
+display: none;
+}
+
+</style>
+
+
+</body>
+</html>

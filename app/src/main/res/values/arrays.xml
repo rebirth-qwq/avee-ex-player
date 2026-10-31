@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_folders_menu">
+        <item>@string/dialog_folders_menu_delete</item>
+        <item>@string/dialog_folders_menu_info</item>
+    </string-array>
+    <string-array name="pref_appTheme_entries">
+        <item>@string/pref_appTheme_entries_blue_white</item>
+        <item>@string/pref_appTheme_entries_purple_pink</item>
+        <item>@string/pref_appTheme_entries_illusion</item>
+    </string-array>
+    <string-array name="pref_appTheme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="pref_playbackEngine_entries">
+        <item>@string/musicSys_native</item>
+        <item>@string/musicSys_exo</item>
+    </string-array>
+    <string-array name="pref_playbackEngine_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pref_renderQuality_entries">
+        <item>100%</item>
+        <item>75%</item>
+        <item>50%</item>
+        <item>25%</item>
+    </string-array>
+    <string-array name="pref_renderQuality_values">
+        <item>100</item>
+        <item>75</item>
+        <item>50</item>
+        <item>25</item>
+    </string-array>
+    <string-array name="pref_targetFps_entries">
+        <item>60 FPS</item>
+        <item>30 FPS</item>
+        <item>24 FPS</item>
+        <item>15 FPS</item>
+    </string-array>
+    <string-array name="pref_targetFps_values">
+        <item>60</item>
+        <item>30</item>
+        <item>24</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>Follow the System</item>
+        <item>English | 中文</item>
+        <item>English</item>
+        <item>中文</item>
+        <item>滚木</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>system</item>
+        <item>zh-rSG</item>
+        <item>en</item>
+        <item>zh</item>
+        <item>in</item>
+    </string-array>
+</resources>

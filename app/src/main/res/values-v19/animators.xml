@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 原始 resources.arsc 中 v19 对这两个 animator 的覆盖值为布尔 false
+         （用于在 API 19 上禁用该状态列表动画）。apktool 将其解码为 type="animator"，
+         aapt2 不接受该类型下的布尔值，这里改为等价的 bool 资源覆盖。 -->
+    <item type="bool" name="mtrl_btn_state_list_anim">false</item>
+    <item type="bool" name="mtrl_card_state_list_anim">false</item>
+</resources>

@@ -1,0 +1,91 @@
+<html><head><link rel="stylesheet" href="style.css"><style></style></head><body>
+<div class="col">
+<!-- <h2>Segments renders</h2> -->
+
+<!---->
+    <!-- <p> -->
+<!-- <pre> -->
+<!-- </pre> -->
+    <!-- </p> -->
+<h4>常规属性</h4>
+<hr>
+<!---->
+<dl>
+<dt id="visible">显示</dt>
+<dd>
+<p>如果未设置，该元素将被隐藏，可用于临时隐藏元素</p>
+</dd>
+<dt id="blendMode">混合模式</dt>
+<dd>
+<p>此元素的显示混合模式<br><br><value>Alpha</value> - 透明<br><value>Screen</value> - 滤色<br><value>Add</value> - 叠加<br><value>PreMulAlpha</value> - 预乘透明<br><value>AddAlpha</value> - 叠加透明</p>
+</dd>
+<dt id="position">位置</dt>
+<dd>
+<p>指定元素的 X,Y 位置，该位置也受 <value>定位基准</value>、<value>轴心点 X/Y</value> 和 <value>微调坐标</value> 影响<br><br>X: <value>0.0</value>, Y: <value>0.0</value> 对应左上角<br>X: <value>0.5</value>, Y: <value>0.5</value> 对应屏幕中心<br>X: <value>1.0</value>, Y: <value>1.0</value> 对应右下角</p>
+</dd>
+<dt id="anchorX">轴心点 X</dt>
+<dd>
+<p><value>位置</value> 属性的替代项，可在应用 <value>位置</value> 值前将元素设置为常见位置<br>在需要更复杂定位时很有用，例如创建进度条时<br><br><value>未设置</value> - 使用默认值<br><value>起始</value> - 左<br><value>中心</value> - 中<br><value>结尾</value> - 右</p>
+</dd>
+<dt id="anchorY">轴心点 Y</dt>
+<dd>
+<p><value>位置</value> 属性的替代项，可在应用 <value>位置</value> 值前将元素设置为常见位置<br>在需要更复杂定位时很有用，例如创建进度条时<br><br><value>未设置</value> - 使用默认值<br><value>起始</value> - 顶<br><value>中心</value> - 中<br><value>结尾</value> - 底</p>
+</dd>
+<dt id="MeasurePos">定位基准</dt>
+<dd>
+<p><value>位置</value> 属性的变量分量</p>
+</dd>
+<dt id="alignmentPosition">微调坐标</dt>
+<dd>
+<p>指定此元素的哪个点由 <value>位置</value> 或相关位置属性定位<br><br>例如，要将元素定位在屏幕中心，可将此属性设为 X: <value>0.5</value>, Y: <value>0.5</value>，并将 <value>位置</value> 也设为 X: <value>0.5</value>, Y: <value>0.5</value>，这样元素中心就对齐到屏幕中心</p>
+</dd>
+<dt id="scaleIsUniform">等比缩放</dt>
+<dd>
+<p>如果设置，元素将始终保持其宽高比，禁用则可让元素填充屏幕——用于背景</p>
+</dd>
+<dt id="scale">缩放</dt>
+<dd>
+<p>指定元素的尺寸</p>
+</dd>
+<dt id="measureScale">缩放基准</dt>
+<dd>
+<p><value>缩放</value> 属性的变量分量</p>
+</dd>
+
+<h5>附加通用属性</h5>
+<hr>
+
+<dt id="rotation">旋转</dt>
+<dd>
+<p>元素的角度/旋转</p>
+</dd>
+<dt id="measureRot">旋转基准</dt>
+<dd>
+<p><value>旋转</value> 属性的变量分量</p>
+</dd>
+</dl>
+<!---->
+</div>
+
+
+<style media="screen" type="text/css">
+
+.container {
+width:100%;
+}
+.container div {
+width:100%;
+}
+.container .header {
+padding: 2px;
+cursor: pointer;
+}
+.container .content {
+display: none;
+}
+
+</style>
+
+
+</body>
+</html>

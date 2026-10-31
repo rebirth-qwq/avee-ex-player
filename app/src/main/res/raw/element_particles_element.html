@@ -1,0 +1,231 @@
+<html><head><link rel="stylesheet" href="style.css"><style></style></head><body>
+<div class="col">
+<h2>粒子</h2>
+
+<!---->
+    <p>
+<pre>显示粒子场
+
+粒子将以 2D 或 3D 方式运动，具体取决于“透视深度”属性</pre>
+    </p>
+<h4>属性</h4>
+<hr>
+<!---->
+<dl>
+<dt>通用元素属性</dt>
+<dd>
+<p>请参阅 <a href="local://customization_general">常规属性</a></p>
+</dd>
+
+<hr>
+
+<dt id="color">颜色</dt>
+<dd>
+<p>粒子的基础颜色，颜色也受 <value>颜色起始</value> 和 <value>过渡到</value> 影响</p>
+</dd>
+<dt id="CountLimit">数量限制</dt>
+<dd>
+<p>任何给定时间可存在的最大粒子数量</p>
+</dd>
+<dt id="mirrorX">X轴镜像</dt>
+<dd>
+<p>水平镜像所有粒子</p>
+</dd>
+<dt id="mirrorY">Y轴镜像</dt>
+<dd>
+<p>垂直镜像所有粒子</p>
+</dd>
+<dt id="perspectiveDepth">透视深度</dt>
+<dd>
+<p>如果设大于 <value>0</value>，粒子将以 3D 方式运动，此值指定 3D 区域的深度。如果设为 <value>0</value> 或以下，粒子将以 2D 方式运动，无深度移动</p>
+</dd>
+<dt id="perspectiveFov">透视视场角</dt>
+<dd>
+<p>指定视场角。用于 3D 粒子</p>
+</dd>
+<dt id="SpawnArea">生成区域</dt>
+<dd>
+<p>指定粒子出现的区域</p>
+<!--2-->
+<div class="pborder">
+<h6>水平线</h6>
+<dl>
+<dt id="verticalOrientation">垂直</dt>
+<dd>
+<p>如果设置，作为垂直线</p>
+</dd>
+<dt id="useRandomVectorInstead">使用随机向量</dt>
+<dd>
+<p>如果设置，粒子将以随机方向生成。此属性覆盖 <value>向量角度</value></p>
+</dd>
+<dt id="vectorAngle">向量角度</dt>
+<dd>
+<p>指定粒子生成时的角度方向（度）</p>
+</dd>
+<dt id="vectorAngleZ">向量角度 Z</dt>
+<dd>
+<p>指定粒子生成时的 Z 轴方向。此值与 <value>向量角度</value> 结合创建 3D 向量。用于 3D 粒子</p>
+</dd>
+</dl>
+</div>
+<!--2-->
+<!--2-->
+<div class="pborder">
+<h6>矩形</h6>
+<dl>
+<dt id="vectorRelativeToCenter">相对中心的向量</dt>
+<dd>
+<p>如果设置，粒子将从中心向外生成。对 2D 粒子有用。此属性覆盖 <value>使用随机向量</value> 和 <value>向量角度</value></p>
+</dd>
+<dt id="useRandomVectorInstead">使用随机向量</dt>
+<dd>
+<p>如果设置，粒子将以随机方向生成。此属性覆盖 <value>向量角度</value></p>
+</dd>
+<dt id="vectorAngle">向量角度</dt>
+<dd>
+<p>指定粒子生成时的角度方向（度）</p>
+</dd>
+<dt id="vectorAngleZ">向量角度 Z</dt>
+<dd>
+<p>指定粒子生成时的 Z 轴方向。此值与 <value>向量角度</value> 结合创建 3D 向量。用于 3D 粒子</p>
+</dd>
+</dl>
+</div>
+<!--2-->
+</dd>
+<dt id="ForceField">力场</dt>
+<dd>
+<p>影响粒子运动的力场</p>
+</dd>
+
+<hr>
+
+<dt id="customImage">自定义图像</dt>
+<dd>
+<p>用于粒子的图像</p>
+</dd>
+<dt id="particleScale">粒子缩放</dt>
+<dd>
+<p>粒子的基础缩放。缩放也受 <value>起始尺寸</value>、<value>淡入尺寸</value>、<value>结束尺寸</value>、<value>随机结束尺寸</value> 影响</p>
+</dd>
+<dt id="trailLength">拖尾长度</dt>
+<dd>
+<p>根据粒子速度拉伸粒子。用于模拟运动模糊</p>
+</dd>
+<dt id="ColorFrom">颜色起始</dt>
+<dd>
+<p>粒子生成时，颜色在 <value>颜色起始</value> 和 <value>过渡到</value> 之间随机混合</p>
+</dd>
+<dt id="ColorTo">过渡到</dt>
+<dd>
+<p>粒子生成时，颜色在 <value>颜色起始</value> 和 <value>过渡到</value> 之间随机混合</p>
+</dd>
+<dt id="fadeInAndOutTime">淡入淡出时间</dt>
+<dd>
+<p>起始淡入和淡出结束阶段之间的时间。粒子尺寸变化分为三个阶段：<value>起始尺寸</value> → <value>淡入尺寸</value> → <value>结束尺寸</value></p>
+</dd>
+<dt id="velocityAngle">速度角度</dt>
+<dd>
+<p>如果设置，粒子将根据其移动方向自动对齐</p>
+</dd>
+<dt id="sizeAspectRatio">尺寸宽高比</dt>
+<dd>
+<p>设为 <value>1.0</value> 为方形粒子，其他值可制作宽粒子</p>
+</dd>
+<dt id="startSize">起始尺寸</dt>
+<dd>
+<p>粒子生成时的尺寸</p>
+</dd>
+<dt id="fadeInSize">淡入尺寸</dt>
+<dd>
+<p>粒子在淡入阶段的尺寸。发生在 <value>淡入淡出时间</value> 指定的时间之后</p>
+</dd>
+<dt id="endSize">结束尺寸</dt>
+<dd>
+<p>粒子生命周期结束时的尺寸</p>
+</dd>
+<dt id="endSizeRandom">随机结束尺寸</dt>
+<dd>
+<p>为尺寸值添加随机分量。此值添加到 <value>起始尺寸</value>、<value>淡入尺寸</value> 和 <value>结束尺寸</value></p>
+</dd>
+<dt id="endSizeZFactor">结束尺寸 Z 因子</dt>
+<dd>
+<p>根据粒子深度影响粒子尺寸<br>这是绝对属性，已无明确用途，3D 粒子请改用 <value>透视深度</value> 和 <value>透视视场角</value></p>
+</dd>
+<dt id="nearCameraFadeOutDistance">近相机淡出距离</dt>
+<dd>
+<p>当粒子靠近相机时在特定距离淡出。用于 3D 粒子</p>
+</dd>
+
+<hr>
+
+<dt id="spawnTime">生成时间</dt>
+<dd>
+<p>每生成一个新粒子的间隔时间。值越低生成的粒子越多</p>
+</dd>
+<dt id="MeasureOverallSpeed">测量整体速度</dt>
+<dd>
+<p>粒子速度的变量分量。总速度由以下组合定义：<value>测量整体速度</value> + <value>速度</value> + <value>随机速度</value></p>
+</dd>
+<dt id="Speed">速度</dt>
+<dd>
+<p>粒子的速度。总速度由以下组合定义：<value>测量整体速度</value> + <value>速度</value> + <value>随机速度</value></p>
+</dd>
+<dt id="speedRandom">随机速度</dt>
+<dd>
+<p>粒子的随机速度分量。总速度由以下组合定义：<value>测量整体速度</value> + <value>速度</value> + <value>随机速度</value></p>
+</dd>
+<dt id="lifetime">生命周期</dt>
+<dd>
+<p>粒子生成后存在的总时间</p>
+</dd>
+<dt id="gravity">重力</dt>
+<dd>
+<p>定义影响粒子运动的重力</p>
+</dd>
+
+<!-- <h5>波浪行为</h5> -->
+<hr>
+
+<dt id="sideSineWaveFreq">侧边正弦波频率</dt>
+<dd>
+<p>波浪运动的速度/频率</p>
+</dd>
+<dt id="sideSineWaveFreqRandom">随机侧边正弦波频率</dt>
+<dd>
+<p>波浪运动的随机速度/频率分量</p>
+</dd>
+<dt id="sideSineWaveMag">侧边正弦波幅度</dt>
+<dd>
+<p>波浪运动的幅度<br><br>如果设置了幅度，粒子将向两侧来回移动/摆动</p>
+</dd>
+<dt id="sideSineWaveMagRandom">随机侧边正弦波幅度</dt>
+<dd>
+<p>波浪运动的随机幅度分量<br><br>如果设置了幅度，粒子将向两侧来回移动/摆动</p>
+</dd>
+</dl>
+<!---->
+</div>
+
+
+<style media="screen" type="text/css">
+
+.container {
+width:100%;
+}
+.container div {
+width:100%;
+}
+.container .header {
+padding: 2px;
+cursor: pointer;
+}
+.container .content {
+display: none;
+}
+
+</style>
+
+
+</body>
+</html>

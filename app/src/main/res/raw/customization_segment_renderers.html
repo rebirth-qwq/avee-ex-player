@@ -1,0 +1,175 @@
+<html><head><link rel="stylesheet" href="style.css"><style></style></head><body>
+<div class="col">
+<h2>分段渲染器</h2>
+
+<!---->
+    <p>
+<pre><value>方柱条</value> - 矩形条
+<value>线条</value> - 连接线
+<value>锐角柱条</value> - 斜角矩形条
+<value>圆柱条</value> - 圆角矩形条
+</pre>
+    </p>
+<h4>属性</h4>
+<hr>
+<!---->
+<!--2-->
+<div class="pborder">
+<h6>方柱条</h6>
+<dl>
+<dt id="colorFrom">颜色起始</dt>
+<dd>
+<p>第一个条的颜色</p>
+</dd>
+<dt id="colorTo">过渡到</dt>
+<dd>
+<p>最后一个条的颜色</p>
+</dd>
+<dt id="fixedHeight">固定高度</dt>
+<dd>
+<p>如果设为非 <value>0</value> 值，条高度将不会变化</p>
+</dd>
+<dt id="barHeightMultiplier">条高度倍率</dt>
+<dd>
+<p>调整条的高度</p>
+</dd>
+<dt id="barWidth">条宽度</dt>
+<dd>
+<p>条的宽度</p>
+</dd>
+<dt id="barWidthAffectedByShape">条宽度受高度影响</dt>
+<dd>
+<p>如果设置，条末端的宽度将根据 <value>形状</value> 扩展</p>
+</dd>
+<dt id="mirror">镜像</dt>
+<dd>
+<p>如果设置，条将向两个方向扩展</p>
+</dd>
+</dl>
+</div>
+<!--2-->
+<hr>
+<!--2-->
+<div class="pborder">
+<h6>线条</h6>
+<dl>
+<dt id="colorFrom">颜色起始</dt>
+<dd>
+<p>第一个点的颜色</p>
+</dd>
+<dt id="colorTo">过渡到</dt>
+<dd>
+<p>最后一个点的颜色</p>
+</dd>
+<dt id="fixedHeight">固定高度</dt>
+<dd>
+<p>如果设为非 <value>0</value> 值，线条高度将不会变化</p>
+</dd>
+<dt id="barHeightMultiplier">条高度倍率</dt>
+<dd>
+<p>调整线条的高度</p>
+</dd>
+<dt id="mirror">镜像</dt>
+<dd>
+<p>如果设置，线条将向两个方向扩展</p>
+</dd>
+<dt id="flipEveryOther">交替翻转</dt>
+<dd>
+<p>如果设置，将翻转线条上每隔一个点的高度</p>
+</dd>
+</dl>
+</div>
+<!--2-->
+<hr>
+<!--2-->
+<div class="pborder">
+<h6>锐角柱条</h6>
+<dl>
+<dt id="colorFrom">颜色起始</dt>
+<dd>
+<p>第一个条的颜色</p>
+</dd>
+<dt id="colorTo">过渡到</dt>
+<dd>
+<p>最后一个条的颜色</p>
+</dd>
+<dt id="fixedHeight">固定高度</dt>
+<dd>
+<p>如果设为非 <value>0</value> 值，条高度将不会变化</p>
+</dd>
+<dt id="barHeightMultiplier">条高度倍率</dt>
+<dd>
+<p>调整条的高度</p>
+</dd>
+<dt id="barWidth">条宽度</dt>
+<dd>
+<p>条的宽度</p>
+</dd>
+<dt id="mirror">镜像</dt>
+<dd>
+<p>如果设置，条将向两个方向扩展</p>
+</dd>
+</dl>
+</div>
+<!--2-->
+<hr>
+<!--2-->
+<div class="pborder">
+<h6>圆柱条</h6>
+<dl>
+<dt id="colorFrom">颜色起始</dt>
+<dd>
+<p>第一个条的颜色</p>
+</dd>
+<dt id="colorTo">过渡到</dt>
+<dd>
+<p>最后一个条的颜色</p>
+</dd>
+<dt id="fixedHeight">固定高度</dt>
+<dd>
+<p>如果设为非 <value>0</value> 值，条高度将不会变化</p>
+</dd>
+<dt id="barHeightMultiplier">条高度倍率</dt>
+<dd>
+<p>调整条的高度</p>
+</dd>
+<dt id="barWidth">条宽度</dt>
+<dd>
+<p>条的宽度</p>
+</dd>
+<dt id="barWidthAffectedByShape">条宽度受高度影响</dt>
+<dd>
+<p>如果设置，条末端的宽度将根据 <value>形状</value> 扩展</p>
+</dd>
+<dt id="mirror">镜像</dt>
+<dd>
+<p>如果设置，条将向两个方向扩展</p>
+</dd>
+</dl>
+</div>
+<!--2-->
+<!---->
+</div>
+
+
+<style media="screen" type="text/css">
+
+.container {
+width:100%;
+}
+.container div {
+width:100%;
+}
+.container .header {
+padding: 2px;
+cursor: pointer;
+}
+.container .content {
+display: none;
+}
+
+</style>
+
+
+</body>
+</html>

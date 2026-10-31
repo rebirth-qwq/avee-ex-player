@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <plurals name="albums_count">
+        <item quantity="other">@string/albums_count_other</item>
+        <item quantity="one">@string/albums_count_one</item>
+    </plurals>
+    <plurals name="audio_bass_x">
+        <item quantity="other">@string/audio_bass_x_other</item>
+    </plurals>
+    <plurals name="audio_stereo_balance_x">
+        <item quantity="other">@string/audio_stereo_balance_x_other</item>
+    </plurals>
+    <plurals name="audio_treble_x">
+        <item quantity="other">@string/audio_treble_x_other</item>
+    </plurals>
+    <plurals name="audio_volume_x">
+        <item quantity="other">@string/audio_volume_x_other</item>
+    </plurals>
+    <plurals name="playback_crossFade_x_sec">
+        <item quantity="other">@string/playback_crossFade_x_sec_other</item>
+    </plurals>
+    <plurals name="showing_x_of_y_items3_item_count">
+        <item quantity="other">@string/showing_x_of_y_items3_item_count_other</item>
+        <item quantity="one">@string/showing_x_of_y_items3_item_count_one</item>
+    </plurals>
+    <plurals name="vis_customization_composition_x">
+        <item quantity="other">@string/vis_customization_composition_x_other</item>
+    </plurals>
+    <plurals name="vis_progress_x">
+        <item quantity="other">@string/vis_progress_x_other</item>
+    </plurals>
+    <plurals name="x_items_about_to_added">
+        <item quantity="other">@string/x_items_about_to_added_other</item>
+        <item quantity="one">@string/x_items_about_to_added_one</item>
+    </plurals>
+    <plurals name="x_items_added_to_playlist">
+        <item quantity="other">@string/x_items_added_to_playlist_other</item>
+        <item quantity="one">@string/x_items_added_to_playlist_one</item>
+    </plurals>
+    <plurals name="x_items_added_to_queue">
+        <item quantity="other">@string/x_items_added_to_queue_other</item>
+        <item quantity="one">@string/x_items_added_to_queue_one</item>
+    </plurals>
+    <plurals name="x_items_found_playlist_scan">
+        <item quantity="other">@string/x_items_found_playlist_scan_other</item>
+        <item quantity="one">@string/x_items_found_playlist_scan_one</item>
+    </plurals>
+    <plurals name="x_items_opened_in_queue">
+        <item quantity="other">@string/x_items_opened_in_queue_other</item>
+        <item quantity="one">@string/x_items_opened_in_queue_one</item>
+    </plurals>
+    <plurals name="x_items_removed_from_queue">
+        <item quantity="other">@string/x_items_removed_from_queue_other</item>
+        <item quantity="one">@string/x_items_removed_from_queue_one</item>
+    </plurals>
+    <plurals name="x_items_saved_in_playlist">
+        <item quantity="other">@string/x_items_saved_in_playlist_other</item>
+        <item quantity="one">@string/x_items_saved_in_playlist_one</item>
+    </plurals>
+    <plurals name="x_items_shuffled">
+        <item quantity="other">@string/x_items_shuffled_other</item>
+        <item quantity="one">@string/x_items_shuffled_one</item>
+    </plurals>
+</resources>

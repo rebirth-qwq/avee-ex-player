@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <style name="ActionModeOverflowMenu" parent="@style/Widget.AppCompat.ListPopupWindow">
+        <item name="android:textColor">@color/action_bar_fg</item>
+        <item name="android:background">?colorPrimary</item>
+    </style>
+    <style name="ActionModeStyle" parent="@android:style/Widget.Holo.Light.ActionMode">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:height">@dimen/actionbar_height</item>
+        <item name="android:titleTextStyle">@style/RobotoTextViewStyleM1</item>
+        <item name="android:subtitleTextStyle">@style/RobotoTextViewStyleM1</item>
+        <item name="android:backgroundSplit">?android:actionModeSplitBackground</item>
+        <item name="background">?colorPrimary</item>
+        <item name="height">@dimen/actionbar_height</item>
+        <item name="subtitleTextStyle">@style/RobotoTextViewStyleM1</item>
+        <item name="titleTextStyle">@style/RobotoTextViewStyleM1</item>
+    </style>
+    <style name="AppBaseThemeDark" parent="@style/AppBaseThemeDarkBase" />
+    <style name="AppBaseThemeDarkBase" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyOverflowButtonStyleDark</item>
+        <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearancePopupMenuLarge</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/TextAppearancePopupMenuSmall</item>
+        <item name="android:actionModeStyle">@style/ActionModeStyle</item>
+        <item name="actionBarPopupTheme">@style/ActionModeOverflowMenu</item>
+        <item name="actionModeStyle">@style/ActionModeStyle</item>
+        <item name="colorAccent">@color/text_color_m1</item>
+        <item name="colorPrimary">@color/theme0_app_color</item>
+        <item name="colorPrimaryDark">@color/theme0_app_color_dark</item>
+        <item name="containerFG">@color/black_alpha_1</item>
+        <item name="containerFGw">@color/black_alpha_25</item>
+        <item name="popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="seekArcStyle">@style/SeekArcLight</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="AppBaseThemeLight" parent="@style/AppBaseThemeLightBase" />
+    <style name="AppBaseThemeLightBase" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyOverflowButtonStyleLight</item>
+        <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearancePopupMenuLarge</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/TextAppearancePopupMenuSmall</item>
+        <item name="android:actionModeStyle">@style/ActionModeStyle</item>
+        <item name="actionBarPopupTheme">@style/ActionModeOverflowMenu</item>
+        <item name="actionModeStyle">@style/ActionModeStyle</item>
+        <item name="colorAccent">@color/text_color_m1</item>
+        <item name="colorPrimary">@color/theme0_app_color</item>
+        <item name="colorPrimaryDark">@color/theme0_app_color_dark</item>
+        <item name="containerFG">@color/black_alpha_1</item>
+        <item name="containerFGw">@color/black_alpha_25</item>
+        <item name="popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="seekArcStyle">@style/SeekArcLight</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="AppTheme" parent="@style/AppBaseThemeLight">
+        <item name="colorAccent">@color/theme0_app_color_dark</item>
+        <item name="colorPrimary">@color/theme0_app_color</item>
+        <item name="colorPrimaryDark">@color/theme0_app_color_dark</item>
+        <item name="containerBackground">@color/white</item>
+        <item name="containerBackgroundDark">@color/gray_4</item>
+        <item name="containerFG">@color/black_alpha_1</item>
+        <item name="containerFGw">@color/black_alpha_25</item>
+        <item name="containerHighLight">@color/theme0_highlight_color_2</item>
+        <item name="listItemBackground">@drawable/theme0_item_bg</item>
+        <item name="listItemBackgroundSelected">@drawable/theme0_item_bg_selected</item>
+        <item name="mediaControlsBackground">@color/text_color_m1</item>
+        <item name="mediaControlsFG">@color/white_alpha_1</item>
+        <item name="mediaControlsFGw">@color/white_alpha_2</item>
+        <item name="mediaControlsHighLight">@color/theme0_app_color</item>
+        <item name="mediaControlsPopupBackground">@color/gray_1</item>
+        <item name="songProgressBar">@drawable/theme0_progressbar</item>
+    </style>
+    <style name="AppTheme.PopupMenu" parent="@android:style/Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">@color/theme0_app_color</item>
+    </style>
+    <style name="AppTheme1" parent="@style/AppBaseThemeLight">
+        <item name="colorAccent">@color/theme1_app_color_dark</item>
+        <item name="colorPrimary">@color/theme1_app_color</item>
+        <item name="colorPrimaryDark">@color/theme1_app_color_dark</item>
+        <item name="containerBackground">@color/white</item>
+        <item name="containerBackgroundDark">@color/gray_4</item>
+        <item name="containerFG">@color/black_alpha_1</item>
+        <item name="containerFGw">@color/black_alpha_25</item>
+        <item name="containerHighLight">@color/theme1_app_color</item>
+        <item name="listItemBackground">@drawable/theme1_item_bg</item>
+        <item name="listItemBackgroundSelected">@drawable/theme1_item_bg_selected</item>
+        <item name="mediaControlsBackground">@color/text_color_m1</item>
+        <item name="mediaControlsFG">@color/white_alpha_1</item>
+        <item name="mediaControlsFGw">@color/white_alpha_2</item>
+        <item name="mediaControlsHighLight">@color/theme1_app_color</item>
+        <item name="mediaControlsPopupBackground">@color/gray_1</item>
+        <item name="songProgressBar">@drawable/theme1_progressbar</item>
+    </style>
+    <style name="AppTheme1.PopupMenu" parent="@android:style/Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">@color/theme1_app_color</item>
+    </style>
+    <style name="AppTheme2" parent="@style/AppBaseThemeLight">
+        <item name="colorAccent">@color/theme2_color_hl</item>
+        <item name="colorPrimary">@color/theme2_color_2</item>
+        <item name="colorPrimaryDark">@color/theme2_color_3</item>
+        <item name="containerBackground">@color/theme2_color_5</item>
+        <item name="containerBackgroundDark">@color/black_alpha_3</item>
+        <item name="containerFG">@color/theme2_color_3</item>
+        <item name="containerFGw">@color/theme2_color_2</item>
+        <item name="containerHighLight">@color/theme2_color_hl</item>
+        <item name="listItemBackground">@drawable/theme2_item_bg</item>
+        <item name="listItemBackgroundSelected">@drawable/theme2_item_bg_selected</item>
+        <item name="mediaControlsBackground">@color/theme2_color_2</item>
+        <item name="mediaControlsFG">@color/theme2_color_5_a_1</item>
+        <item name="mediaControlsFGw">@color/theme2_color_0</item>
+        <item name="mediaControlsHighLight">@color/theme2_color_hl</item>
+        <item name="mediaControlsPopupBackground">@color/theme2_color_2</item>
+        <item name="songProgressBar">@drawable/theme2_progressbar</item>
+    </style>
+    <style name="AppTheme2.PopupMenu" parent="@android:style/Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">@color/theme2_color_2</item>
+    </style>
+    <style name="AppTheme3" parent="@style/AppBaseThemeLight">
+        <item name="colorAccent">@color/theme3_color_0</item>
+        <item name="colorPrimary">@color/theme3_color_1</item>
+        <item name="colorPrimaryDark">@color/theme3_color_2</item>
+        <item name="containerBackground">@color/theme3_color_4</item>
+        <item name="containerBackgroundDark">@color/black_alpha_3</item>
+        <item name="containerFG">@color/theme3_color_3_a_1</item>
+        <item name="containerFGw">@color/theme3_color_3_a_2</item>
+        <item name="containerHighLight">@color/theme3_color_hl</item>
+        <item name="listItemBackground">@drawable/theme3_item_bg</item>
+        <item name="listItemBackgroundSelected">@drawable/theme3_item_bg_selected</item>
+        <item name="mediaControlsBackground">@color/theme3_color_1</item>
+        <item name="mediaControlsFG">@color/theme3_color_4</item>
+        <item name="mediaControlsFGw">@color/theme3_color_3</item>
+        <item name="mediaControlsHighLight">@color/theme3_color_2</item>
+        <item name="mediaControlsPopupBackground">@color/theme3_color_1</item>
+        <item name="songProgressBar">@drawable/theme3_progressbar</item>
+    </style>
+    <style name="AppTheme3.PopupMenu" parent="@android:style/Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">@color/theme3_color_1</item>
+    </style>
+    <style name="AppTheme4" parent="@style/AppBaseThemeDark">
+        <item name="colorAccent">@color/theme4_color_hl</item>
+        <item name="colorPrimary">@color/theme4_color_1</item>
+        <item name="colorPrimaryDark">@color/theme4_color_0</item>
+        <item name="containerBackground">@color/gray_4</item>
+        <item name="containerBackgroundDark">@color/black_alpha_25</item>
+        <item name="containerFG">@color/theme4_color_2</item>
+        <item name="containerFGw">@color/theme4_color_3</item>
+        <item name="containerHighLight">@color/theme4_color_hl</item>
+        <item name="listItemBackground">@drawable/theme4_item_bg</item>
+        <item name="listItemBackgroundSelected">@drawable/theme4_item_bg_selected</item>
+        <item name="mediaControlsBackground">@color/theme4_color_1</item>
+        <item name="mediaControlsFG">@color/theme4_color_4</item>
+        <item name="mediaControlsFGw">@color/theme4_color_3</item>
+        <item name="mediaControlsHighLight">@color/theme4_color_hl</item>
+        <item name="mediaControlsPopupBackground">@color/theme4_color_1</item>
+        <item name="songProgressBar">@drawable/theme4_progressbar</item>
+    </style>
+    <style name="AppTheme4.PopupMenu" parent="@android:style/Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">@color/theme4_color_1</item>
+    </style>
+    <style name="AppTheme5" parent="@style/AppBaseThemeDark">
+        <item name="colorAccent">@color/theme5_color_0</item>
+        <item name="colorPrimary">@color/theme5_color_1</item>
+        <item name="colorPrimaryDark">@color/theme5_color_2</item>
+        <item name="containerBackground">@color/theme5_color_0</item>
+        <item name="containerBackgroundDark">@color/black_alpha_3</item>
+        <item name="containerFG">@color/theme5_color_2</item>
+        <item name="containerFGw">@color/theme5_color_1</item>
+        <item name="containerHighLight">@color/theme5_color_hl</item>
+        <item name="listItemBackground">@drawable/theme5_item_bg</item>
+        <item name="listItemBackgroundSelected">@drawable/theme5_item_bg_selected</item>
+        <item name="mediaControlsBackground">@color/theme5_color_1</item>
+        <item name="mediaControlsFG">@color/theme5_color_3</item>
+        <item name="mediaControlsFGw">@color/theme5_color_2</item>
+        <item name="mediaControlsHighLight">@color/theme5_color_hl</item>
+        <item name="mediaControlsPopupBackground">@color/theme5_color_1</item>
+        <item name="songProgressBar">@drawable/theme5_progressbar</item>
+    </style>
+    <style name="AppTheme5.PopupMenu" parent="@android:style/Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">@color/theme5_color_1</item>
+    </style>
+    <style name="AppTheme6" parent="@style/AppBaseThemeLight">
+        <item name="colorAccent">@color/theme6_color_0</item>
+        <item name="colorPrimary">@color/theme6_color_3</item>
+        <item name="colorPrimaryDark">@color/theme6_color_4</item>
+        <item name="containerBackground">@color/theme6_color_0</item>
+        <item name="containerBackgroundDark">@color/theme6_color_1</item>
+        <item name="containerFG">@color/black_alpha_1</item>
+        <item name="containerFGw">@color/black_alpha_25</item>
+        <item name="containerHighLight">@color/theme6_color_hl</item>
+        <item name="listItemBackground">@drawable/theme6_item_bg</item>
+        <item name="listItemBackgroundSelected">@drawable/theme6_item_bg_selected</item>
+        <item name="mediaControlsBackground">@color/theme6_color_3_a_1</item>
+        <item name="mediaControlsFG">@color/theme6_color_0</item>
+        <item name="mediaControlsFGw">@color/theme6_color_0_a_2</item>
+        <item name="mediaControlsHighLight">@color/theme6_color_hl</item>
+        <item name="mediaControlsPopupBackground">@color/theme6_color_3</item>
+        <item name="songProgressBar">@drawable/theme6_progressbar</item>
+    </style>
+    <style name="AppTheme6.PopupMenu" parent="@android:style/Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">@color/theme6_color_3</item>
+    </style>
+    <style name="AppTheme7" parent="@style/AppBaseThemeDark">
+        <item name="colorAccent">@color/theme7_color_0</item>
+        <item name="colorPrimary">@color/theme7_color_1</item>
+        <item name="colorPrimaryDark">@color/theme7_color_2</item>
+        <item name="containerBackground">@color/theme7_color_dark</item>
+        <item name="containerBackgroundDark">@color/theme7_color_5</item>
+        <item name="containerFG">@color/theme7_color_2_a_1</item>
+        <item name="containerFGw">@color/theme7_color_2_a_2</item>
+        <item name="containerHighLight">@color/theme7_color_hl</item>
+        <item name="listItemBackground">@drawable/theme7_item_bg</item>
+        <item name="listItemBackgroundSelected">@drawable/theme7_item_bg_selected</item>
+        <item name="mediaControlsBackground">@color/theme7_color_5</item>
+        <item name="mediaControlsFG">@color/theme7_color_2_a_1</item>
+        <item name="mediaControlsFGw">@color/theme7_color_3_a_2</item>
+        <item name="mediaControlsHighLight">@color/theme7_color_hl</item>
+        <item name="mediaControlsPopupBackground">@color/theme7_color_5</item>
+        <item name="songProgressBar">@drawable/theme7_progressbar</item>
+    </style>
+    <style name="AppTheme7.PopupMenu" parent="@android:style/Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">@color/theme7_color_5</item>
+    </style>
+    <style name="AppThemeSettings" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyOverflowButtonStyleLight</item>
+        <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="android:actionModeStyle">@style/ActionModeStyle</item>
+        <item name="colorAccent">@color/text_color_m1</item>
+        <item name="colorPrimary">@color/settings_app_color</item>
+        <item name="colorPrimaryDark">@color/settings_app_color_dark</item>
+        <item name="popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="FullscreenActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#00000000</item>
+        <item name="android:height">@dimen/actionbar_height</item>
+        <item name="android:titleTextStyle">@style/RobotoTextViewStyleM2</item>
+        <item name="android:subtitleTextStyle">@style/RobotoTextViewStyleM2</item>
+        <item name="subtitleTextStyle">@style/RobotoTextViewStyleM2</item>
+        <item name="titleTextStyle">@style/RobotoTextViewStyleM2</item>
+    </style>
+    <style name="FullscreenActionBarStyleColored" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/settings_app_color</item>
+        <item name="android:height">@dimen/actionbar_height</item>
+        <item name="android:titleTextStyle">@style/RobotoTextViewStyleM2</item>
+        <item name="android:subtitleTextStyle">@style/RobotoTextViewStyleM2</item>
+        <item name="subtitleTextStyle">@style/RobotoTextViewStyleM2</item>
+        <item name="titleTextStyle">@style/RobotoTextViewStyleM2</item>
+    </style>
+    <style name="MyListPopupWindowDarkStyle" parent="@style/Widget.AppCompat.ListPopupWindow" />
+    <style name="MyOverflowButtonStyleDark" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_overflow_round_v2</item>
+    </style>
+    <style name="MyOverflowButtonStyleLight" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_overflow_round_v2</item>
+    </style>
+    <style name="MyPopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">?colorPrimary</item>
+    </style>
+    <style name="MySeekBarStyleLight" parent="@style/Widget.AppCompat.SeekBar">
+        <item name="android:thumb">@drawable/my_seekbar_thumb</item>
+    </style>
+    <style name="MyThemeSeekBarStyleDark" parent="@style/Widget.AppCompat.SeekBar">
+        <item name="android:thumb">@drawable/my_seekbar_thumb</item>
+        <item name="android:thumbOffset">5.0dip</item>
+    </style>
+    <style name="MyThemeSeekBarStyleLight" parent="@style/Widget.AppCompat.SeekBar">
+        <item name="android:thumb">@drawable/my_seekbar_thumb</item>
+        <item name="android:thumbOffset">5.0dip</item>
+    </style>
+    <style name="PickerEditText">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+    <style name="RobotoButtonStyle" parent="@style/Widget.AppCompat.Button">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoTextViewStyleM1" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/textSizeM1</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/action_bar_fg</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoTextViewStyleM2" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/textSizeM2</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/action_bar_fg</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoTextViewStyleM2Light" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/textSizeM2</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/action_bar_fgw</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="SeekArcLight">
+        <item name="arcColor">@color/progress_gray</item>
+        <item name="progressColor">?colorPrimaryDark</item>
+    </style>
+    <style name="TextAppearancePopupMenuLarge">
+        <item name="android:textSize">@dimen/textSizeM2</item>
+        <item name="android:textColor">@color/action_bar_fg</item>
+    </style>
+    <style name="TextAppearancePopupMenuSmall">
+        <item name="android:textSize">@dimen/textSizeM3</item>
+        <item name="android:textColor">@color/action_bar_fg</item>
+    </style>
+    <style name="ThemeOverlay.MyPopup" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">?colorPrimary</item>
+        <item name="android:textColorPrimary">@color/action_bar_fg</item>
+        <item name="android:textColorSecondary">@color/action_bar_fgw</item>
+    </style>
+    </resources>

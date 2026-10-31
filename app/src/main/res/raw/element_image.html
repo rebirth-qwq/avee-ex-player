@@ -1,0 +1,151 @@
+<html><head><link rel="stylesheet" href="style.css"><style></style></head><body>
+<div class="col">
+<h2>图像</h2>
+<!---->
+    <p>
+<pre>显示专辑封面、文件图像或网络图像
+
+如果未设置自定义路径，将显示专辑封面；如果不存在专辑封面，将显示生成图像（即艺术家和标题名称带彩色背景）。支持动态 GIF 和通过颜色键实现 GIF 透明</pre>
+</p>
+<h4>属性</h4>
+<hr>
+<!---->
+<dl>
+<dt>通用元素属性</dt>
+<dd>
+<p>请参阅 <a href="local://customization_general">常规属性</a></p>
+</dd>
+
+<hr>
+
+<dt id="customImage">自定义图像</dt>
+<dd>
+<p>要显示的图像</p>
+</dd>
+<dt id="measureAnimationSpeed">测量动画速度</dt>
+<dd>
+<p>动画速度，用于 GIF 图像</p>
+</dd>
+<dt id="keepAspectRatioAndCropToFit">自适应屏幕</dt>
+<dd>
+<p>如果设置，不拉伸图像，裁剪以适应所需尺寸。此属性覆盖 <value>保持宽高比</value></p>
+</dd>
+<dt id="keepAspectRatio">保持宽高比</dt>
+<dd>
+<p>如果设置，不拉伸图像，适应所需尺寸</p>
+</dd>
+<dt id="blurredBorder">模糊边框</dt>
+<dd>
+<p>如果图像无法适应所需尺寸，用模糊图像填充空白区域</p>
+</dd>
+<dt id="Shape">形状</dt>
+<dd>
+<p>指定以非矩形形状显示图像</p>
+</dd>
+<dt id="MaskImage">遮罩图像</dt>
+<dd>
+<p>用于遮罩 <value>自定义图像</value> 区域的图像或合成</p>
+</dd>
+<dt id="maskMode">遮罩样式</dt>
+<dd>
+<p>如果使用了 <value>遮罩图像</value>，指定将哪些颜色分量解释为遮罩区域</p>
+</dd>
+
+<hr>
+
+<dt id="Color">颜色从</dt>
+<dd>
+<p>图像的颜色</p>
+</dd>
+<dt id="ColorTo">过渡到</dt>
+<dd>
+<p>如果使用了 <value>测量颜色混合</value>，则混合 <value>颜色从</value> 的第二种颜色</p>
+</dd>
+<dt id="MeasureColorBlend">测量颜色混合</dt>
+<dd>
+<p>指定 <value>颜色从</value> 和 <value>过渡到</value> 之间颜色混合的值</p>
+</dd>
+
+<hr>
+
+<dt id="colorKeyEnabled">启用抠色</dt>
+<dd>
+<p>如果图像没有透明度，启用此选项以使用特定颜色键代替</p>
+</dd>
+<dt id="autoDetectColorKey">自动检测颜色键</dt>
+<dd>
+<p>如果设置，尝试通过查看图像边框颜色来检测颜色键</p>
+</dd>
+<dt id="colorKey">抠色</dt>
+<dd>
+<p>手动设置用于透明的颜色</p>
+</dd>
+<dt id="transparencyStrength">透明强度</dt>
+<dd>
+<p>增强图像的透明部分</p>
+</dd>
+<dt id="opacityStrength">不透明强度</dt>
+<dd>
+<p>增强图像的不透明部分</p>
+</dd>
+
+<hr>
+
+<dt id="blurEnabled">启用模糊</dt>
+<dd>
+<p>如果设置，模糊整个图像</p>
+</dd>
+<dt id="blurDivider">模糊强度</dt>
+<dd>
+<p>帮助增加 <value>模糊半径</value> 值</p>
+</dd>
+<dt id="blurRadius">模糊半径</dt>
+<dd>
+<p>模糊量</p>
+</dd>
+
+<hr>
+
+<dt id="generatedAlbumArtHintShiftHue">生成专辑封面色调偏移</dt>
+<dd>
+<p>为默认图像偏移色调（当未设置 <value>自定义图像</value> 时使用）</p>
+</dd>
+<dt id="generatedAlbumArtHintNoText">生成专辑封面无文字</dt>
+<dd>
+<p>隐藏默认图像上的文字（当未设置 <value>自定义图像</value> 时使用）</p>
+</dd>
+<dt id="generatedAlbumArtHintForceGen">强制生成专辑封面</dt>
+<dd>
+<p>如果设置，强制显示默认图像</p>
+</dd>
+<dt id="generatedAlbumArtColor">生成专辑封面颜色</dt>
+<dd>
+<p>用于默认图像的颜色（当未设置 <value>自定义图像</value> 时使用）</p>
+</dd>
+
+</dl>
+<!---->
+</div>
+
+
+<style media="screen" type="text/css">
+
+.container {
+width:100%;
+}
+.container div {
+width:100%;
+}
+.container .header {
+padding: 2px;
+cursor: pointer;
+}
+.container .content {
+display: none;
+}
+
+</style>
+
+
+</body>
+</html>
